@@ -1,6 +1,6 @@
 # Presentations
 
-Slides and demo videos from conference talks and presentations by **Andrew Schwartz** ([@sw4mp_f0x](https://twitter.com/sw4mp_f0x)).
+Slides and demo videos from conference talks and presentations by **Andrew Schwartz**.
 
 Each folder contains the slide deck and the demo recordings for that talk.
 
