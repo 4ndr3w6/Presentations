@@ -244,24 +244,6 @@ index=security sourcetype="bloodhound:alerts" Severity="CRITICAL"
 | sort -count
 ```
 
-### Microsoft Sentinel
-
-```kusto
-let BloodHoundAlerts = externaldata(
-    Timestamp: datetime,
-    Client: string,
-    Severity: string,
-    Score: real,
-    Efficiency: real,
-    Filter: string
-)[@"https://yourstorage.blob.core.windows.net/logs/bloodhound_alerts.jsonl"]
-with(format="multijson");
-
-BloodHoundAlerts
-| where Severity == "CRITICAL"
-| summarize AlertCount=count() by Client, bin(Timestamp, 1h)
-```
-
 ### Elastic/Filebeat
 
 ```yaml
