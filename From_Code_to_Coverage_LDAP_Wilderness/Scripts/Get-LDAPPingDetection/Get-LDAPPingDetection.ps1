@@ -83,7 +83,7 @@
     .\Get-LDAPPingDetection.ps1 -CorrelationWindowSeconds 2 -AlertThreshold 5
 
 .NOTES
-    Author: Andrew Schwartz (@4ndr3w6S) / Huntress
+    Author: Andrew Schwartz (@4ndr3w6S)
     Series: From Code to Coverage - Part 6
     License: MIT License
     Copyright (c) 2025 Andrew Schwartz (see LICENSE)

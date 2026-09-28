@@ -6,7 +6,7 @@ Detects **LDAP Ping (ldapnomnom-style) username enumeration** by correlating Win
 or disabled account). Neither source alone is complete — the script joins them by
 timestamp to show *who* queried and *what* they queried.
 
-Part of the "From Code to Coverage" series (Part 6). Author: Andrew Schwartz (@4ndr3w6S) / Huntress.
+Part of the "From Code to Coverage" series (Part 6). Author: Andrew Schwartz (@4ndr3w6S).
 
 ## Requirements
 
